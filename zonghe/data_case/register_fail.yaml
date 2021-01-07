@@ -1,0 +1,6 @@
+#密码小于6位
+- data: {"mobilephone":18012345678,"pwd":12346}
+  expect: {"status":0,"code":"20108","data":None,"msg":"密码长度必须为6~18"}
+# 密码大于18位
+- data: {"mobilephone":18012395678,"pwd":'126sdfghjklzxcvbnmk'}
+  expect: {"status":0,"code":"20108","data":None,"msg":"密码长度必须为6~18"}
