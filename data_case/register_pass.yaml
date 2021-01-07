@@ -1,0 +1,3 @@
+# 密码大于18位
+- data: {"mobilephone":18012395632,"pwd":'123321'}
+  expect: {"status":1,"code":"10001","data":None,"msg":"注册成功"}
